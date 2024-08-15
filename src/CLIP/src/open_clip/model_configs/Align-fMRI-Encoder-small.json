@@ -1,0 +1,15 @@
+{
+    "embed_dim": 512,
+    "vision_cfg": {
+        "image_size": 13888,
+        "layers": 12,
+        "width": 768,
+        "patch_size": 32,
+        "pooling": "Conv1d"
+    },
+    "text_cfg": {
+        "hf_model_name": "roberta-base",
+        "hf_tokenizer_name": "roberta-base",
+        "hf_pooler_type": "mean_pooler"
+    }
+}
