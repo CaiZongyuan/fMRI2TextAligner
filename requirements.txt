@@ -7,3 +7,12 @@ numpy
 matplotlib
 tqdm
 pandas
+
+regex
+ftfy
+braceexpand
+huggingface_hub
+transformers[sentencepiece]
+timm
+fsspec
+webdataset

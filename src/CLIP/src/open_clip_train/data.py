@@ -51,7 +51,7 @@ class CsvDataset(Dataset):
         self.tokenize = tokenizer
 
         # Load npy file once in __init__
-        fMRI_dir = "/home/rickc/Projects/CV/open_clip/betas_subj01.npy"
+        fMRI_dir = "/root/autodl-tmp/.autodl/Projects/fMRI2TextAligner/data/nsd/merged_betas_subj01_all.npy"
         self.npy = np.load(fMRI_dir)
         # Reshape npy array to 3D
         self.npy = self.npy.reshape(self.npy.shape[0], 1, self.npy.shape[1])

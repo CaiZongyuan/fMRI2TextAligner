@@ -615,10 +615,18 @@ if __name__ == "__main__":
         "--model",
         "Align-fMRI-Encoder-small",
         "--train-data",
-        "/home/rickc/Projects/CV/open_clip/train.csv",
+        "/root/autodl-tmp/.autodl/Projects/fMRI2TextAligner/notebooks/train.csv",
         "--val-data",
-        "/home/rickc/Projects/CV/open_clip/val.csv",
-        "--lock-text",
+        "/root/autodl-tmp/.autodl/Projects/fMRI2TextAligner/notebooks/val.csv",
+        # "--lock-text",
+        "--batch-size",
+        "112",
+        "--epochs",
+        "20",
+        "--report-to",
+        "tensorboard",
+        "--logs",
+        "/root/tf-logs",
     ]
 
     main(sys.argv[1:])

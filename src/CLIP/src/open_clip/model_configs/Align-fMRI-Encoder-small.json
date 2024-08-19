@@ -1,10 +1,10 @@
 {
-    "embed_dim": 512,
+    "embed_dim": 768,
     "vision_cfg": {
         "image_size": 13888,
-        "layers": 12,
+        "layers": 14,
         "width": 768,
-        "patch_size": 32,
+        "patch_size": 16,
         "pooling": "Conv1d"
     },
     "text_cfg": {
